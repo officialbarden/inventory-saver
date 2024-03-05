@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"[bniv] ","color":"gold"},{"text":"Following are commands you can use!","color":"white"},{"text":"\n\n"},{"text":"/trigger bniv-fetchInventory","clickEvent":{"action":"suggest_command","value":"/trigger bniv-fetchInventory"},"hoverEvent":{"action":"show_text","contents":"Provides a list of user-owned inventories and ability to withdraw."}},{"text":"\n"},{"text":"/trigger bniv-help","clickEvent":{"action":"suggest_command","value":"/trigger bniv-help"},"hoverEvent":{"action":"show_text","contents":"shows THIS wall of text."}},{"text":"\n"},{"text":"/trigger bniv-saveInventory","clickEvent":{"action":"suggest_command","value":"/trigger bniv-saveInventory"},"hoverEvent":{"action":"show_text","contents":"Save your current inventory using this command.  Your inventory gets assigned a Vault Name (changable)and Vault Id (unchangeable)."}},{"text":"\n\nHover over them to understand their work!"}]
+
+#> reset scoreboard.
+scoreboard players reset @s bniv-help
+scoreboard players enable @s bniv-help
