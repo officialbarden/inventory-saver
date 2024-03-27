@@ -5,5 +5,5 @@ $tellraw @s ["",{"text":"\n"},{"text":"[bniv] ","color":"gold"},{"text":"Vault \
 
 scoreboard players remove @s bniv-iteration 1
 
-$data remove storage minecraft:barden.fetch.getlist Query[{username:$(username)}].vaults[0]
-$execute unless score @s bniv-iteration matches 0 run function bniv.commands:commands/fetch/__4__ with storage minecraft:barden.fetch.getlist Query[{username:$(username)}].vaults[0]
+$data remove storage minecraft:barden.fetch.getlist Query[{username:$(username)}].vaults[-1]
+$execute unless score @s bniv-iteration matches 0 run function bniv.commands:commands/fetch/__4__ with storage minecraft:barden.fetch.getlist Query[{username:$(username)}].vaults[-1]

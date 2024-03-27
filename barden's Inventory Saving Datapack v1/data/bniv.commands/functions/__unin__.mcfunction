@@ -20,8 +20,6 @@ data remove storage minecraft:barden.fetchreq.inventory Items
 data remove storage minecraft:barden.fetch.getlist Query
 data remove storage minecraft:barden.maininventories Inventories
 
-#> remove shulker
-execute in minecraft:overworld run setblock 12345678 300 12345678 air replace
 
 #> disable datapack:
 datapack disable "file/barden's Inventory Saving Datapack v1"
