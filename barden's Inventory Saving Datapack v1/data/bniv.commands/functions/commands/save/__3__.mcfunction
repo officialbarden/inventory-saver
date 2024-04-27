@@ -1,2 +1,0 @@
-#> successfully stored inventory.
-$tellraw @s ["",{"text":"\n"},{"text":"[bniv] ","color":"gold"},{"text":"your inventory was saved in $(vaultname)!\n","color":"white"},{"text":"\u25b6","bold":true,"color":"white"},{"text":" ","color":"white"},{"text":"change name?","color":"white","clickEvent":{"action":"run_command","value":"/function bniv.commands:commands/save/extras/change_name/__1__ {\"vaultid\":$(vaultid),\"vaultname\":\"$(vaultname)\",\"username\":\"$(username)\"}"}}]
