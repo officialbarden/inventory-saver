@@ -1,0 +1,1 @@
+$tellraw @s ["",{"text":"[inv.saver] ","color":"gold"},{"text":"Vault name was set to \"$(vault_name)\"\n","color":"white"},{"text":"\u25b6 Change Name?","color":"white","clickEvent":{"action":"run_command","value":"/trigger zzz.inv-ChangeName set $(vault_id)"}}]
