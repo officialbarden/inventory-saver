@@ -1,3 +1,4 @@
+execute if items entity @s container.* * run scoreboard players set @s inv-Save 1
 scoreboard players reset @s inv-Withdraw
 scoreboard players enable @s inv-Withdraw
 

@@ -3,8 +3,6 @@ scoreboard objectives add inv-Save trigger
 scoreboard players enable @a inv-Save
 scoreboard objectives add inv-Withdraw trigger
 scoreboard players enable @a inv-Withdraw
-scoreboard objectives add inv-Help trigger
-scoreboard players enable @a inv-Help
 
 #> tellraw triggers:
 scoreboard objectives add zzz.inv-ChangeName trigger
